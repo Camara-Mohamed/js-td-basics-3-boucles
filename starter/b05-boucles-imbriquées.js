@@ -30,7 +30,7 @@ for (let i = 1; i <= 2; i++) {
 */
 
 // N.B. TABLE D'ÉVOLUTION DES VARIABLES :
-//   nbre      nbre < =10           console.log(nbre)        nbre++
+// i      j           console.log(nbre)        nbre++
 // nbre = 1,   1 < 5 true,           affiche 1,          nbre passe à 1+1 = 2
 // nbre = 2,   2 < 5 true,           affiche 2,          nbre passe à 2+1 = 3
 // ...
