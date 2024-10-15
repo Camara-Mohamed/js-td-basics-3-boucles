@@ -14,6 +14,11 @@ EXEMPLE 2 : Mauvaise manipulation du compteur d'une boucle FOR
 - Dans le corps de la boucle 'for', faites tout ce qui est nécessaire pour incrémenter le compteur manuellement, comme s'il s'agissait d'une boucle 'while'.
 - Essayez d'exécuter ce code dans un navigateur pour voir ce qui se passe, sans oublier d'expliquer les résultats.
 
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+   i++;
+}
+
 CORRECTION :
 - Dans une boucle 'for', le compteur est géré automatiquement.
 - Vous n'avez pas besoin de manipuler le compteur manuellement comme dans une boucle 'while'.
@@ -21,5 +26,7 @@ CORRECTION :
 
 */
 
-
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
+}
 

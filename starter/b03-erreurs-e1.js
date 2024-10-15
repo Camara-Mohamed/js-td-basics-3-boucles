@@ -15,6 +15,12 @@ EXEMPLE 1 : Boucle WHILE infinie
 - Dans le corps de la boucle, affichez la valeur de 'nombre' dans la console.
 - N'oubliez pas d'incrémenter la variable 'nombre' à chaque itération pour éviter une boucle infinie.
 
+let nombre = 1;
+
+while (nombre <= 5) {
+    console.log(nombre);
+}
+
 CORRECTION :
 - Initialisez 'nombre' à 1.
 - Utilisez 'while' avec une condition 'nombre <= 5'.
@@ -22,3 +28,10 @@ CORRECTION :
 - Incrémentez 'nombre' à chaque itération pour éviter une boucle infinie.
 
 */
+
+let nombre = 1;
+
+while (nombre <= 5) {
+    console.log(nombre);
+    nombre++;
+}
